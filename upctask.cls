@@ -1,4 +1,3 @@
-% upctask.cls — UPC LaTeX class for task/report delivery
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{upctask}[2025/10/23 UPC Task Template]
 
@@ -9,6 +8,8 @@
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}
 \RequirePackage{anyfontsize}
+
+\graphicspath{{template/}}
 
 % Page geometry
 \geometry{margin=2cm}
