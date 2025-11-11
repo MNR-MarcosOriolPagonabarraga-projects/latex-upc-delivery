@@ -1,0 +1,41 @@
+\usepackage{listings}
+\usepackage{xcolor} % Required for colors in listings
+
+% Define custom MATLAB style
+\lstdefinelanguage{Matlab}{
+    keywords={break,case,catch,continue,else,elseif,end,for,function,global,if,otherwise,persistent,return,switch,try,while,
+              tf, c2d, fprintf, length}, % Added common functions
+    ndkeywords={zeros, ones, eye, size, plot, disp, title, xlabel, ylabel},
+    identifierstyle=\color{black},
+    keywordstyle=\color[rgb]{0.0,0.0,0.5}\bfseries, % Dark Blue
+    ndkeywordstyle=\color[rgb]{0.3,0.0,0.7}\bfseries, % Purple
+    commentstyle=\color[rgb]{0.13,0.55,0.13}\itshape, % Green for comments
+    stringstyle=\color[rgb]{0.7,0.1,0.1}, % Red for strings
+    sensitive=true,
+    morecomment=[l]{\%}, % Single-line comment
+    morecomment=[n]{\%\{}{\%\}}, % Multi-line comments
+    morestring=[b]',
+    tabsize=4,
+    basicstyle=\small\ttfamily,
+    columns=fixed,
+}
+
+% Set the overall listing environment options
+\lstset{
+    language=Matlab,
+    frame=single,           % Add a frame around the code
+    frameround=tttt,        % Rounded corners
+    framesep=5pt,           % Spacing between frame and content
+    backgroundcolor=\color{gray!10}, % Light gray background
+    captionpos=b,           % Caption at the bottom
+    extendedchars=true,
+    showspaces=false,
+    showtabs=false,
+    showstringspaces=false,
+    numberstyle=\tiny\color{gray}, % Line number style
+    numbers=left,           % Display line numbers
+    stepnumber=1,
+    numbersep=10pt,          % Space between line numbers and code
+    breaklines=true,
+    breakatwhitespace=true,
+}
