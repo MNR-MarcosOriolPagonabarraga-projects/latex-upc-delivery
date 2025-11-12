@@ -17,9 +17,9 @@
 \RequirePackage{subcaption}
 \RequirePackage[english]{babel}
 \RequirePackage{xcolor}
-\input{matlab-snippet}
+\input{template/matlab-snippet}
 
-\graphicspath{{template/}}
+\graphicspath{{template/img/}}
 
 % Page geometry
 \geometry{
@@ -33,7 +33,7 @@ right=1.5cm
 
 % Header and footer
 \pagestyle{fancy}
-\fancyhead[L]{\includegraphics[height=1.2cm]{img/etseib.png}}
+\fancyhead[L]{\includegraphics[height=1.5cm]{template/img/etseib.png}}
 \fancyfoot[C]{\thepage}
 
 % Define title page
@@ -41,7 +41,7 @@ right=1.5cm
 \begin{titlepage}
 \centering
 \vspace*{2cm}
-\includegraphics[width=4cm]{img/etseib.png}\\[1cm]
+\includegraphics[width=4cm]{template/img/etseib.png}\\[1cm]
 {\Huge\bfseries \@title}\\[0.5cm]
 {\Large \@author}\\[0.3cm]
 {\large \@date}
