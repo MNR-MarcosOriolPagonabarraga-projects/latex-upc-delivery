@@ -1,4 +1,4 @@
- \NeedsTeXFormat{LaTeX2e}
+\NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{upctask}[2025/10/23 UPC Task Template]
 
 \LoadClass[a4paper,12pt]{article}
@@ -10,13 +10,14 @@
 \RequirePackage{anyfontsize}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
-\RequirePackage{amsmath}
+\RequirePackage{amsmath, amssymb}
 \RequirePackage{booktabs}
 \RequirePackage{tikz}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
 \RequirePackage[english]{babel}
 \RequirePackage{xcolor}
+\RequirePackage{float}
 \input{template/matlab-snippet}
 
 \graphicspath{{template/img/}}
