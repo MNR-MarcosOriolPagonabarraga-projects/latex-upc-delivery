@@ -33,7 +33,7 @@ right=1.5cm
 
 % Header and footer
 \pagestyle{fancy}
-\fancyhead[L]{\includegraphics[height=1.5cm]{template/img/etseib.png}}
+\fancyhead[L]{\includegraphics[height=1.2cm]{template/img/etseib_upc.png}}
 \fancyfoot[C]{\thepage}
 
 % Define title page
