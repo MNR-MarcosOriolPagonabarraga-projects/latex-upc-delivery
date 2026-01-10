@@ -18,6 +18,15 @@
 \RequirePackage[english]{babel}
 \RequirePackage{xcolor}
 \RequirePackage{float}
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue
+}
+\RequirePackage[capitalize, nameinlink]{cleveref}
+\RequirePackage[labelfont=bf]{caption}
 \input{template/matlab-snippet}
 
 \graphicspath{{template/img/}}
